@@ -12,8 +12,8 @@
 
 /* ========================================================================= */
 /*                              Type Definitions                             */
-/*          Do not alter the provided definitions (they will be used         */
-/*            for marking). You may add new definitions as needed.           */
+/*                      Do not alter the provided definitions                */
+/*                      You may add new definitions as needed.               */
 /* ========================================================================= */
 
 /* The name of the input file */
@@ -72,7 +72,6 @@ typedef struct{
 /* ========================================================================= */
 /*                       Library Function  Declarations                      */
 /*            These functions are defined at the end of the file.            */
-/*      (Do not modify these declarations or the corresponding functions)    */
 /* ========================================================================= */
 
 
@@ -107,7 +106,7 @@ char* getStationName(int stationID);
 float surfaceDistance(GeographicPoint* point1, GeographicPoint* point2);
 
 /* ========================================================================= */
-/*                              Main Program                                 */
+/*                              Program Key                                  */
 /*                          												 */
 /*            - Blue    if        (t-A) < -1                                 */
 /*            - Green   if  -1 <= (t-A) < 0                                  */
@@ -269,8 +268,8 @@ int main(){
 
 /* ========================================================================= */
 /*                           Library Functions                               */
-/*        These are declared above, and will be useful to generate           */
-/*            the output file. Do not modify these functions.                */
+/*              These are declared above, and will be useful                 */
+/*                       to generate the output file.                        */
 /* ========================================================================= */
 
 /* writePrologue
